@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+
+/*--------------------------- Navbar Section --------------------------------*/
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 0 !important;
+}
+.navbar a {
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.collapse a:hover {
+    background-color: #a517ba;
+}
+
+/*--------------------------- artikel section --------------------------------*/
+#artikel {
+    background: #f0f0f0;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.artikel {
+    font-weight: 50;
+    font-size: 10px;
+}
+.card {
+    border-radius: 0;
+    padding: 10px;
+}
+.card:hover {
+    background-color: #b4d4ff;
+}
+.row {
+    padding-left: 4%;
+    padding-bottom: 2%;
+}
+
+
+/*--------------------------- footer section --------------------------------*/
+#footer {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.footer-img {
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+}
+hr {
+    background-color: #fff;
+}
+.copyright {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.form-control {
+    box-shadow: none !important;
+    border: none;
+    max-width: 300px;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+.btn {
+    box-shadow: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
